@@ -12,6 +12,8 @@ public class LoginSteps {
 	@Given("^user enter url$")
 	public void user_enter_url(){
 		loginAction.enterURL();
+		
+		System.out.println("hiii");
 	}
 
 	@When("^user enter username$")
